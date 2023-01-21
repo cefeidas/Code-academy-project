@@ -90,7 +90,22 @@ p {
 
 }
 
-
-
-
 /* Footer*/
+
+#nav-footer {
+    float:right;
+    margin-bottom: 2%;
+}
+
+#nav-footer > a {
+    text-decoration: none;
+    margin-right:30px;
+    color: black;
+    font-weight: 400;
+    font-family: inconsolata;
+
+}
+
+#nav-footer > a:hover {
+    color: rgb(148, 73, 247);
+}
