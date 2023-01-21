@@ -95,6 +95,7 @@ p {
 #nav-footer {
     float:right;
     margin-bottom: 2%;
+    margin-top: 100px;
 }
 
 #nav-footer > a {
@@ -109,3 +110,29 @@ p {
 #nav-footer > a:hover {
     color: rgb(148, 73, 247);
 }
+
+button {
+    
+    position:absolute;
+    line-height: 30%;
+    border: 1px solid black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-family: orbitron;
+    border-radius: 5%;
+    margin-left: 42%;
+    width: 16%;
+  }
+
+  button > a {
+    text-decoration: none;
+    color: black;
+  }
+
+  button > a:hover {
+    color: rgb(148, 73, 247);
+
+  }
