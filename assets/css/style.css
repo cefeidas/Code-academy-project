@@ -1,0 +1,74 @@
+/* Fonts imported from Google Fonts*/
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Orbitron:wght@600&family=Roboto&family=Rubik&family=Ubuntu:wght@300&display=swap');
+
+/* General Rules */
+
+* {
+    margin: 0;
+    padding: 0;
+    border:none;
+
+}
+
+/* Header */
+
+header > h1, #nav-header {
+    line-height: 75px;
+}
+
+header > h1, header > h3 {
+    margin-left: 25px;
+}
+
+header > h1 {
+    font-family: orbitron;
+    letter-spacing: 2px;
+    font-size: 40px;
+}
+
+header > h3 {
+    font-family: Ubuntu;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+#nav-header {
+    float:right
+}
+
+#nav-header > a {
+    text-decoration: none;
+    margin-right:30px;
+    color: black;
+    font-weight: 400;
+    font-family: inconsolata;
+}
+
+#nav-header > a:hover {
+    color: rgb(148, 73, 247);
+}
+
+#nav-header > .active {
+    color: rgb(148, 73, 247);
+}
+
+#header-image {
+    height: 200px;
+    width: 100%;
+    background: url(../images/header.jpg);
+
+}
+/* Content*/
+
+.title {
+    font-family: orbitron;
+}
+
+p {
+    font-family: Ubuntu;
+}
+
+/* Footer*/
