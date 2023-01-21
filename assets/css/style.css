@@ -58,17 +58,39 @@ header > h3 {
 #header-image {
     height: 200px;
     width: 100%;
-    background: url(../images/header.jpg);
+    background: url(../images/header.jpg) no-repeat center center;
+    margin-top: 15px;
+    margin-bottom: 35px;
 
 }
 /* Content*/
 
 .title {
     font-family: orbitron;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 p {
     font-family: Ubuntu;
+    margin-left: 10%;
+    margin-right: 10%;
 }
+
+.content-picture {
+    margin: 10% 10% 10% 10%;
+
+       
+}
+
+.content-embedded-video {
+    margin: 10% 10% 10% 10%;
+       
+
+}
+
+
+
 
 /* Footer*/
