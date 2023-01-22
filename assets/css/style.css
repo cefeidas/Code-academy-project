@@ -154,3 +154,26 @@ button {
     list-style-type: none;
     margin-top: 5%;
   }
+
+  /* Specific for feedback*/
+
+  form > p {
+    margin: 0px 10px 0px 0px;
+  }
+
+  #hear-from-us, #advice {
+    width: 80%;
+    aspect-ratio: 2/1;
+    text-align: start;
+  }
+
+  #hear-from-us::placeholder, #advice::placeholder {
+    position: absolute;
+    top:0;
+    left:0;
+
+
+  }
+
+
+
