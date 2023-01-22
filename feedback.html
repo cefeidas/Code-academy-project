@@ -8,93 +8,99 @@
     <meta name="keywords" content="eclipse phase, posthuman studios, rpg, roleplaying game, player guide, uplift octopus, transhumanism">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <title>Code Academy Project</title>
 </head>
 <body>
     <header>
-        <nav id="nav-header">
-            <a href=index.html>Home</a>
+        <nav class="full-nav" id="nav-header">
+            <a href=index.html">Home</a>
             <a href=uplift-octopus.html>Uplift Octopus</a>
             <a href=players-guide.html>Player's Guide</a>
             <a href=feedback.html class="active">Feedback</a>
         </nav>
-        <h1>Uplift Octopus: Player's guide</h1>
-        <h3>A fanbased addition to the project "Eclipse Phase", from Posthuman Studios.</h3>
-        
+        <nav class="short-nav" id="nav-header">
+            <a href=index.html><span class="material-symbols-outlined">home</span></a>
+            <a href=uplift-octopus.html><span class="material-symbols-outlined">library_books</span></a>
+            <a href=players-guide.html><span class="material-symbols-outlined">tips_and_updates</span></a>
+            <a href=feedback.html class="active"><span class="material-symbols-outlined">forum</span></a>
+        </nav>
+        <h1 class="full-text">Uplift Octopus: Player's guide</h1>
+        <h1 class="short-text">Uplift Octopus</h1><br>
+        <h3 class="full-text">A fanbased addition to the project "Eclipse Phase", from Posthuman Studios.</h3>
+        <h3 class="short-text">A player's guide for "Eclipse Phase"</h3>
         <div id="header-image"></div>
     </header>
     <section class="container-fluid">
         <div class="row">
-            <div class="col-sm">
+            <div class="col-md">
                 <p class="title"> Help us to improve!</p>
                 <p>Only a few minutes of your time can make a difference! </p>
                 <p>Please fill that feedback form and help us to understand what people are we reaching and whether or not they find our content useful.</p>
                 <p>Thank you for getting this far!</p>
             </div>
-            <div class="col-sm">
+            <div class="col-md">
                 <p class="title">Your details</p>
-                <form>
+                <form class="content-form" action="url" method="get">
                     <label for="fname">Full name:</label><br>
-                    <input type="text" placeholder="Jhon Smith" id="fname" name="fname"><br><br>
+                    <input type="text" placeholder=" Jhon Smith" id="fname" name="fname" class="content-input-text"><br><br>
                     <label for="email">Email Address:</label><br>
-                    <input type="email" placeholder="jhonsmith@jhon.smith" id="email" name="email"><br><br>
+                    <input type="email" placeholder=" jhonsmith@jhon.smith" id="email" name="email" class="content-input-text"><br><br>
                     <label for="hear-from-us">How did you hear from us?</label><br>
-                    <textarea type="text" placeholder=" A friend..." id="hear-from-us" name="hear-from-us"> </textarea><br><br>
+                    <textarea type="text" placeholder=" A friend..." id="hear-from-us" name="hear-from-us" class="content-input-text"> </textarea><br><br>
                 <p>Did you know what an RPG was before reading this web page?</p>    
-                    <input type="radio" id="rpg-yes" name="rpg" value="Yes">
+                    <input type="radio" id="rpg-yes" name="rpg" value="Yes" class="content-radio-button">
                     <label for="rpg-yes">Yes</label>
-                    <input type="radio" id="rpg-no" name="rpg" value="No">
-                    <label for="No">No</label><br><br>
+                    <input type="radio" id="rpg-no" name="rpg" value="No" class="content-radio-button">
+                    <label for="rpg-no">No</label><br><br>
                 <p>Did you know what Eclipse Phase was before reading this web page?</p>    
-                    <input type="radio" id="eclipse-yes" name="eclipse" value="Yes">
+                    <input type="radio" id="eclipse-yes" name="eclipse" value="Yes" class="content-radio-button">
                     <label for="eclipse-yes">Yes</label>
-                    <input type="radio" id="eclipse-no" name="eclipse" value="No">
+                    <input type="radio" id="eclipse-no" name="eclipse" value="No" class="content-radio-button">
                     <label for="eclipse-no">No</label><br><br><br><br>
-                    
-                </form>      
-
-                
-
-                
+                </form>
             </div>
-            <div class="col-sm">
+            <div class="col-md">
                 <p class="title">Rate us!</p>
-                <form action="url" method="get">
+                <form class="content-form" action="url" method="get">
                     <p>Did you find our site useful?</p>    
-                    <input type="radio" id="useful-1" name="useful" value="1">
+                    <input type="radio" id="useful-1" name="useful" value="1" class="content-radio-button">
                     <label for="useful">1</label>
-                    <input type="radio" id="useful-2" name="useful" value="2">
+                    <input type="radio" id="useful-2" name="useful" value="2" class="content-radio-button">
                     <label for="useful">2</label>
-                    <input type="radio" id="useful-3" name="useful" value="3">
+                    <input type="radio" id="useful-3" name="useful" value="3" class="content-radio-button">
                     <label for="useful">3</label>
-                    <input type="radio" id="useful-4" name="useful" value="4">
+                    <input type="radio" id="useful-4" name="useful" value="4" class="content-radio-button">
                     <label for="useful">4</label>
-                    <input type="radio" id="useful-5" name="useful" value="5">
+                    <input type="radio" id="useful-5" name="useful" value="5" class="content-radio-button">
                     <label for="useful">5</label><br><br>
                     <p>Did you lern something new?</p>    
-                    <input type="radio" id="new-1" name="new" value="1">
+                    <input type="radio" id="new-1" name="new" value="1" class="content-radio-button">
                     <label for="new">1</label>
-                    <input type="radio" id="new-2" name="new" value="2">
+                    <input type="radio" id="new-2" name="new" value="2" class="content-radio-button">
                     <label for="new">2</label>
-                    <input type="radio" id="new-3" name="new" value="3">
+                    <input type="radio" id="new-3" name="new" value="3" class="content-radio-button">
                     <label for="new">3</label>
-                    <input type="radio" id="new-4" name="new" value="4">
+                    <input type="radio" id="new-4" name="new" value="4" class="content-radio-button">
                     <label for="new">4</label>
-                    <input type="radio" id="new-5" name="new" value="5">
+                    <input type="radio" id="new-5" name="new" value="5" class="content-radio-button">
                     <label for="new">5</label><br><br>
                     <p>How likely would you have played an Uplift Octopus before reaching this website? </p>    
-                    <input type="radio" id="play-oct-1" name="play-oct" value="1">
+                    <input type="radio" id="play-oct-1" name="play-oct" value="1" class="content-radio-button">
                     <label for="play-oct">1</label>
-                    <input type="radio" id="play-oct-2" name="play-oct" value="2">
+                    <input type="radio" id="play-oct-2" name="play-oct" value="2" class="content-radio-button">
                     <label for="play-oct">2</label>
-                    <input type="radio" id="play-oct-3" name="play-oct" value="3">
+                    <input type="radio" id="play-oct-3" name="play-oct" value="3" class="content-radio-button">
                     <label for="play-oct">3</label>
-                    <input type="radio" id="play-oct-4" name="play-oct" value="4">
+                    <input type="radio" id="play-oct-4" name="play-oct" value="4" class="content-radio-button">
                     <label for="play-oct">4</label>
-                    <input type="radio" id="play-oct-5" name="play-oct" value="5">
+                    <input type="radio" id="play-oct-5" name="play-oct" value="5" class="content-radio-button">
                     <label for="play-oct">5</label><br><br>
                     <label for="advice">What would you suggest us to improve?</label><br>
-                    <textarea type="text" placeholder=" You should..." id="advice" name="advice"></textarea><br><br>
+                    <textarea type="text" placeholder=" You should..." id="advice" name="advice" class="content-input-text"></textarea><br><br>
 
                 </form>
             </div>
