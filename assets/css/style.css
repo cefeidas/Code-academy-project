@@ -123,8 +123,8 @@ button {
     font-size: 20px;
     font-family: orbitron;
     border-radius: 5%;
-    margin-left: 42%;
-    width: 16%;
+    margin-left: 38%;
+    width: 24%;
   }
 
   button > a {
@@ -135,4 +135,22 @@ button {
   button > a:hover {
     color: rgb(148, 73, 247);
 
+  }
+
+  #nav-footer > .active {
+    color: rgb(148, 73, 247);
+
+  }
+
+  /* Specific for uplift octopus*/
+
+  .link-list {
+    border: 1px solid black;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .link-list > ul {
+    list-style-type: none;
+    margin-top: 5%;
   }
