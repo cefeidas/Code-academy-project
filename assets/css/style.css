@@ -161,6 +161,11 @@ button {
     margin: 0px 10px 0px 0px;
   }
 
+  form > input {
+    text-align: left;
+    vertical-align: top;
+  }
+
   #hear-from-us, #advice {
     width: 80%;
     aspect-ratio: 2/1;
@@ -171,9 +176,13 @@ button {
     position: absolute;
     top:0;
     left:0;
-
-
   }
+  
+  #hear-from-us , #advice {
+    top:0;
+    left:0;
+  }
+
 
 
 
