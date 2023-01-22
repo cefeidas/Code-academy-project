@@ -183,6 +183,119 @@ button {
     left:0;
   }
 
+  /*Responsive and Adaptive design*/
+
+    /*Index page*/
+@media screen and (min-width: 1300px) {
+    .short-text{
+        display: none;
+    }
+    .short-nav {
+        display: none;
+    }
+    .full-nav{
+        display: inline-block;
+    }
+    .full-button {
+        display: inline-block;
+    }
+    .short-button {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 1300px) {
+    .short-text{
+        display: none;
+    }
+    header > h1 {
+        font-family: orbitron;
+        font-size: 30px;
+    }
+
+    header > h3 {
+        font-family: Ubuntu;
+        font-size: 15px;
+        font-weight: 800;
+    }
+
+    #header-image {
+        height: 150px;
+        width: 100%;
+        background: url(../images/header.jpg) no-repeat center center;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .short-nav {
+        display: none;
+    }
+    .full-nav{
+        display: inline-block;
+    }
+    .full-button {
+        display: inline-block;
+    }
+    .short-button {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    #nav-header > a {
+        margin-right:10px;
+    }
+    #nav-footer > a {
+        margin-right:10px;
+    }
+    .short-nav {
+        display: none;
+    }
+    .full-nav{
+        display: inline-block;
+    }
+
+    .full-button {
+        display: none;
+    }
+    .short-button {
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .short-text {
+        display: inline-block;
+    }
+    .full-text{
+        display: none;
+    }
+    #header-image {
+        height: 100px;
+    }
+    .short-nav {
+        display: none;
+    }
+    .full-nav{
+        display: inline-block;
+    }
+    
+}
+
+@media screen and (max-width: 720px) {  
+    .short-nav {
+        display: inline-block;
+    }
+    .full-nav{
+        display: none;
+    }  
+}
+    /*Uplift Octopus page*/
+    /*Player's guide page*/
+    /*feedback page*/
+    /*Creative Commons page*/
+
+
 
 
 
