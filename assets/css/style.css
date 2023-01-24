@@ -55,17 +55,8 @@ header > h3 {
     color: rgb(148, 73, 247);
 }
 
-.imgbox {
-    display: grid;
-    height: 100%;
-    margin-top: 15px;
-    margin-bottom: 35px;
-}
-
-.center-fit {
-    max-width: 100%;
-    max-height: 100px;
-    margin: auto;    
+.header-image {
+    margin-bottom: 5%;
 
 }
 /* Content*/
