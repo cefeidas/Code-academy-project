@@ -15,11 +15,11 @@
 
 /* Header */
 
-header > h1, #nav-header {
+#title-header > h1, #nav-header {
     line-height: 75px;
 }
 
-header > h1, header > h3 {
+#title-header {
     margin-left: 25px;
 }
 
