@@ -79,8 +79,10 @@ p {
 
 .content-picture {
     margin: 10% 10% 10% 10%;
+}
 
-       
+#content-octopus-image {
+    width: 80%;
 }
 
 .content-embedded-video {
@@ -176,6 +178,10 @@ button {
   #nav-footer > .active {
     color: rgb(148, 73, 247);
 
+  }
+
+  #footer-image {
+    width: 100%;
   }
 
   /* Specific for uplift octopus*/
