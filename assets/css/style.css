@@ -140,6 +140,7 @@ p {
 }
 
 #button {
+    text-decoration: none;
     width: 100%;
     position:relative;
     height: 100px;
@@ -148,7 +149,7 @@ p {
     align-items: center;
 }
 #button > button {
-    
+    text-decoration: none;
     position: relative;
     line-height: 30%;
     border: 1px solid black;
@@ -160,9 +161,6 @@ p {
     font-family: orbitron;
     border-radius: 5%;
     width: 24%;
-  }
-
-#button > button {
     text-decoration: none;
     color: black;
   }
