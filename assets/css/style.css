@@ -210,7 +210,7 @@ p {
   }
 
   #hear-from-us, #advice {
-    width: 80%;
+    width: 100%;
     aspect-ratio: 2/1;
     text-align: start;
   }
