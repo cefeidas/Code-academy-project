@@ -39,7 +39,7 @@ header > h3 {
     float:right
 }
 
-#nav-header > a {
+.full-nav > a, .short-nav > a {
     text-decoration: none;
     margin-right: 30px;
     color: black;
@@ -47,11 +47,11 @@ header > h3 {
     font-family: inconsolata;
 }
 
-#nav-header > a:hover {
+.full-nav > a:hover, .short-nav > a:hover {
     color: rgb(148, 73, 247);
 }
 
-#nav-header > .active {
+.full-nav > .active, .short-nav > .active {
     color: rgb(148, 73, 247);
 }
 
