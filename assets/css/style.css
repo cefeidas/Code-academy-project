@@ -118,10 +118,6 @@ p {
     padding: 5px;
   }
 
-  placeholder {
-
-  }
-
 /* Footer*/
 
 #nav-footer {
@@ -151,7 +147,7 @@ p {
     justify-content: center;
     align-items: center;
 }
-button {
+.button > input {
     
     line-height: 30%;
     border: 1px solid black;
@@ -165,12 +161,12 @@ button {
     width: 24%;
   }
 
-  button > a {
+  .button > input {
     text-decoration: none;
     color: black;
   }
 
-  button > a:hover {
+  .button > input:hover {
     color: rgb(148, 73, 247);
 
   }
@@ -239,10 +235,10 @@ button {
     .full-nav{
         display: inline-block;
     }
-    .full-button {
+    .button > .full-button {
         display: inline-block;
     }
-    .short-button {
+    .button >.short-button {
         display: none;
     }
 }
