@@ -140,9 +140,16 @@ p {
     color: rgb(148, 73, 247);
 }
 
+.button {
+    width: 100%;
+    position:relative;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 button {
     
-    position:absolute;
     line-height: 30%;
     border: 1px solid black;
     padding: 15px 32px;
@@ -152,7 +159,6 @@ button {
     font-size: 20px;
     font-family: orbitron;
     border-radius: 5%;
-    margin-left: 38%;
     width: 24%;
   }
 
