@@ -202,6 +202,12 @@ p {
     text-align: left;
     vertical-align: top;
   }
+  #fname {
+    width: 80%;
+  }
+  #email {
+    width: 80%;
+  }
 
   #hear-from-us, #advice {
     width: 80%;
