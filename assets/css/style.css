@@ -253,6 +253,12 @@ p {
     .short-text{
         display: none;
     }
+    .short-nav {
+        display: none;
+    }
+    .short-text{
+        display: none;
+    }
     header > h1 {
         font-family: orbitron;
         font-size: 30px;
@@ -264,12 +270,6 @@ p {
         font-weight: 800;
     }
 
-    .short-nav {
-        display: none;
-    }
-    .full-nav{
-        display: inline-block;
-    }
     #button > .full-button {
         display: inline-block;
     }
@@ -277,6 +277,15 @@ p {
         display: none;
     }
     
+}
+
+@media screen and (max-width: 1200px) {
+    .short-text {
+        display: inline-block;
+    }
+    .full-text{
+        display: none;
+    }
 }
 
 @media screen and (max-width: 1100px) {
@@ -286,12 +295,6 @@ p {
     #nav-footer > a {
         margin-right:10px;
     }
-    .short-nav {
-        display: none;
-    }
-    .full-nav{
-        display: inline-block;
-    }
 
     #button > .full-button {
         display: none;
@@ -299,27 +302,20 @@ p {
     #button > .short-button {
         display: inline-block;
     }
+
+    header > h1 {
+        font-family: orbitron;
+        font-size: 25px;
+    }
+
+    header > h3 {
+        font-family: Ubuntu;
+        font-size: 12px;
+        font-weight: 800;
+    }
 }
 
-@media screen and (max-width: 1000px) {
-    .short-text {
-        display: inline-block;
-    }
-    .full-text{
-        display: none;
-    }
-    
-    .short-nav {
-        display: none;
-    }
-    .full-nav{
-        display: inline-block;
-    }
-
-    
-}
-
-@media screen and (max-width: 720px) {  
+@media screen and (max-width: 800px) {  
     .short-nav {
         display: inline-block;
     }
@@ -329,14 +325,56 @@ p {
     #button > button {
     width: 50%;
     }
+}
+
+@media screen and (max-width: 700px) {
+    .short-nav > a { 
+        margin-right: 5px;
+    }
+    #feedback-icon {
+        margin-right: 30px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #title-header > h1 {
+        font-size: 30px;
+    }
+    #title-header > h3 {
+        font-size: 15px;
+    }
 
 }
-    /*Uplift Octopus page*/
-    /*Player's guide page*/
-    /*feedback page*/
-    /*Creative Commons page*/
 
+@media screen and (max-width: 500px) {
+    #title-header > h1 {
+        font-size: 40px;
+    }
+    #title-header > h3 {
+        font-size: 20px;
+    }
+}
 
+@media screen and (max-width: 400px) {
+    #title-header > h1 {
+        font-size: 30px;
+    }
+    #title-header > h3 {
+        font-size: 15px;
+    }
+    #nav-header > a {
+        font-size: 20px;
+    }
 
+}
+
+@media screen and (max-width: 300px) {
+    #title-header > h1 {
+        font-size: 25px;
+    }
+    #title-header > h3 {
+        font-size: 12px;
+    }
+}
 
 
