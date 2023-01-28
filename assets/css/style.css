@@ -55,10 +55,11 @@
     color: rgb(148, 73, 247);
 }
 
-.header-image {
-    margin-bottom: 5%;
-
+#header-image {
+    width: 100%;
 }
+
+
 /* Content*/
 
 .title {
