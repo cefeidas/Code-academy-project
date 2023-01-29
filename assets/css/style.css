@@ -70,47 +70,6 @@ p {
     margin-right: 10%;
 }
 
-.content-picture {
-    margin: 10% 10% 10% 10%;
-}
-
-#content-octopus-image {
-    width: 80%;
-}
-
-.content-embedded-video {
-    margin: 10% 10% 10% 10%;
-    position: relative;
-    overflow: hidden;
-    width: 80%;
-    padding-top: 56.25%;
-}
-
-.responsive-iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
-  }
-
-  .content-form {
-    margin: 10% 10% 10% 10%;
-  }
-
-  .content-radio-button {
-    margin-top: -1px;
-    vertical-align: middle;
-  }
-
-  
-  .content-input-text {
-    border: 2px solid black;
-    padding: 5px;
-  }
-
 /* Footer*/
 
 #button {
@@ -137,79 +96,118 @@ p {
     width: 24%;
     text-decoration: none;
     color: black;
-  }
+}
 
 #button > button:hover {
     color: rgb(148, 73, 247);
 
-  }
+}
 
-  #nav-footer > .active {
-    color: rgb(148, 73, 247);
-
-  }
-
-  #footer-image {
+#footer-image {
     width: 100%;
-  }
+}
+
+  /*Specific for index*/
+
+.content-picture {
+    margin: 10% 10% 10% 10%;
+}
+
+#content-octopus-image {
+    width: 80%;
+}
+
+.content-embedded-video {
+    margin: 10% 10% 10% 10%;
+    position: relative;
+    overflow: hidden;
+    width: 80%;
+    padding-top: 56.25%;
+}
+
+.responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
 
   /* Specific for uplift octopus*/
 
-  .link-list {
+.link-list {
     border: 1px solid black;
     margin-left: 10%;
     margin-right: 10%;
-  }
+}
 
-  .link-list > ul {
+.link-list > ul {
     list-style-type: none;
     margin-top: 5%;
-    
-  }
-  li > p {
+ }
+  
+li > p {
     margin-right: 5px;
     margin-left: 0%;
 
-  }
+}
 
   /* Specific for feedback*/
 
-  form > p {
-    margin: 0px 10px 0px 0px;
-  }
+.content-form {
+    margin: 10% 10% 10% 10%;
+}
 
-  form > input {
+.content-radio-button {
+    margin-top: -1px;
+    vertical-align: middle;
+}
+  
+.content-input-text {
+    border: 2px solid black;
+    padding: 5px;
+}
+  
+form > p {
+    margin: 0px 10px 0px 0px;
+}
+
+form > input {
     text-align: left;
     vertical-align: top;
-  }
-  #fname {
+}
+  
+#fname {
     width: 80%;
-  }
-  #email {
+}
+  
+#email {
     width: 80%;
-  }
+}
 
-  #hear-from-us, #advice {
+#hear-from-us, #advice {
     width: 100%;
     aspect-ratio: 2/1;
     text-align: start;
-  }
+}
 
-  #hear-from-us::placeholder, #advice::placeholder {
+#hear-from-us::placeholder, #advice::placeholder {
     position: absolute;
     top:0;
     left:0;
     padding: 1%;
-  }
+}
   
-  #hear-from-us , #advice {
+#hear-from-us , #advice {
     top:0;
     left:0;
-  }
+}
 
   /*Responsive and Adaptive design*/
 
-    /*Index page*/
 @media screen and (min-width: 1300px) {
     .short-text{
         display: none;
@@ -227,7 +225,6 @@ p {
         display: none;
     }
 }
-
 
 @media screen and (max-width: 1300px) {
     .short-text{
@@ -258,7 +255,6 @@ p {
     #button > .short-button {
         display: none;
     }
-    
 }
 
 @media screen and (max-width: 1200px) {
