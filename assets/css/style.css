@@ -269,7 +269,9 @@ p {
         font-size: 15px;
         font-weight: 800;
     }
-
+    .title {
+        font-size: 18px;
+    }
     #button > .full-button {
         display: inline-block;
     }
@@ -313,6 +315,9 @@ p {
         font-size: 12px;
         font-weight: 800;
     }
+    .title {
+        font-size: 15px;
+    }
 }
 
 @media screen and (max-width: 800px) {  
@@ -342,6 +347,9 @@ p {
     }
     #title-header > h3 {
         font-size: 15px;
+    }
+    p {
+        font-size: 12px;
     }
 
 }
