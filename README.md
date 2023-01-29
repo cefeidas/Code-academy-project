@@ -47,7 +47,7 @@ The goals we aim for are:
 - This section refers to every page by short intuitive names when the screen size allows it and intuitive icons when the screen is too small.
 - The navigation bar uses an intuitive color code that signals what page you are currently on.
 
-![Nav Bar Full](assets/Readme-files/header-full-navigation-bar.JPG)
+![Nav Bar Full](assets/)
 ![Nav Bar Short](assets/Readme-files/header-short-navigation-bar.JPG)
 
 
