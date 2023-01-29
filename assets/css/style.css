@@ -1,16 +1,9 @@
-/* Fonts imported from Google Fonts*/
-
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Ubuntu:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Orbitron:wght@600&family=Roboto&family=Rubik&family=Ubuntu:wght@300&display=swap');
-
 /* General Rules */
 
 * {
     margin: 0;
     padding: 0;
     border:none;
-
 }
 
 /* Header */
@@ -284,19 +277,16 @@ p {
     #nav-footer > a {
         margin-right:10px;
     }
-
     #button > .full-button {
         display: none;
     }
     #button > .short-button {
         display: inline-block;
     }
-
     header > h1 {
         font-family: orbitron;
         font-size: 25px;
     }
-
     header > h3 {
         font-family: Ubuntu;
         font-size: 12px;
@@ -341,13 +331,11 @@ p {
     .short-button {
         font-size: 12px
     }
-
     #button > button {
         font-size: 12px;
         padding: 8px 16px;
         width: 20%;
     }
-
 }
 
 @media screen and (max-width: 500px) {
@@ -372,7 +360,6 @@ p {
     #button > button {
         width: 24%;
     }
-
 }
 
 @media screen and (max-width: 300px) {
