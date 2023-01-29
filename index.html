@@ -12,6 +12,7 @@
 </head>
 <body>
     <header>
+<!--You can use this section to click and visit every page within the project. This section is included in every page. -->
         <nav id="nav-header">
             <div class="full-nav">
                 <a href=index.html class="active">Home</a>
@@ -29,6 +30,7 @@
                 <a id="feedback-icon" href=feedback.html><span class="material-symbols-outlined">forum</span></a>                
             </div>
         </nav>
+<!-- This section is the title. It includes the title itself, a subtitle and an image. Title and subtitles are included in every page. The images change. -->
         <section>
             <div id="title-header">
                 <h1 class="full-text">Uplift Octopus: Player's guide</h1>
@@ -42,40 +44,47 @@
         </section>
 
     </header>
+<!-- This class sets up the structure of the content on every page in the project: A responsive pack of columns. -->
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md">
+<!-- First column: Brief explanation about the purpose of the web, and an image that helps to picture the concept.-->            
+            <section class="col-md">
                 <br><br>
-                <p class="title">What is this all about</p>
-                <p>Eclipse phase is an RPG (Role Playing Game). It depicts a far future, where science has broken the limits of human bodies and minds. This is called transhumanism.</p>
-                <p>This game is big and complex, and the universe is explained through 14 dense books.</p>
-                <p>This web page is designed to make your life easier, and allow you to roleplay the most difficult, curious and fascinating characters in the game: Uplift Octopus.</p>
+                <div>
+                    <p class="title">What is this all about</p>
+                    <p>Eclipse phase is an RPG (Role Playing Game). It depicts a far future, where science has broken the limits of human bodies and minds. This is called transhumanism.</p>
+                    <p>This game is big and complex, and the universe is explained through many dense books.</p>
+                    <p>This web page is designed to make your life easier, and allow you to roleplay the most difficult, curious and fascinating characters in the game: Uplift Octopus.</p>
+                </div>
                 <div class="content-picture">
                     <img id=content-octopus-image src="assets/images/octopus.jpg" alt="a robotic octopus">
                 </div>
-            </div>
-            <div class="col-md">
+            </section>
+<!-- Second column: Brief explanation about RPGs, and a video that helps to picture the concept.-->
+            <section class="col-md">
                 <br><br>
                 <p class="title">But... what is an RPG?</p>
                 <p>An RPG is a game, where players impersonate characters in a fictional setting, while a DM (Dungeon Master) drives the narrative, describes the surroundings, and impersonates the non playable characters.</p>
                 <p>You will get a better idea watching an example!</p>
                 <div class="content-embedded-video">
-                    <iframe class="responsive-iframe" src="https://www.youtube.com/embed/BF5gdvMyuOs" title="RPG example">
+                    <iframe class="responsive-iframe" src="https://www.youtube.com/embed/BF5gdvMyuOs" title="RPG example" alt="A role-playing game session">
                     </iframe>
                 </div>
-            </div>
-            <div class="col-md">
+            </section>
+<!-- Third column: Brief explanation about transhumanism. and a video that helps to picture the concept.-->
+            <section class="col-md">
                 <br><br>
                 <p class="title">Transhumanism... too hard</p>
                 <p>The "trans" prefix comes from Latin, and means "beyond". Transhumanism refers to how technologies could leave behind the traditional meaning of humanity through genetics, medical, robotics or computing advance. But this guys explain it better than myself. </p>
                 <div class="content-embedded-video">
-                    <iframe class="responsive-iframe" src="https://www.youtube.com/embed/RVmuU04-X5E" title="RPG example">
+                    <iframe class="responsive-iframe" src="https://www.youtube.com/embed/RVmuU04-X5E" title="RPG example" alt="A explanatory video about transhumanism">
                     </iframe>
                 </div>
-            </div>
+            </section>
         </div>
     </div>
     <footer>
+<!--A button that leads you to the next page.-->
         <div>
             <form id="button" action="uplift-octopus.html" method="get">
                 <button class="full-button">
@@ -86,6 +95,7 @@
                 </button>
             </form>
         </div>
+<!-- A footer image-->
         <div>
             <img id=footer-image src="assets/images/footer-image.jpg" alt="Alien worlds">
         </div>
