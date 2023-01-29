@@ -103,10 +103,12 @@ p {
 
 }
 
-#footer-image {
+#full-footer-image {
     width: 100%;
 }
-
+#short-footer-image {
+    width: 100%;
+}
   /*Specific for index*/
 
 .content-picture {
@@ -230,6 +232,12 @@ form > input {
     #button > .short-button {
         display: none;
     }
+    #full-footer-image {
+        display:inline-block; 
+    }
+    #short-footer-image {
+        display:none;
+    }
 }
 
 @media screen and (max-width: 1300px) {
@@ -260,6 +268,12 @@ form > input {
     }
     #button > .short-button {
         display: none;
+    }
+    #full-footer-image {
+        display:inline-block; 
+    }
+    #short-footer-image {
+        display:none;
     }
 }
 
@@ -308,6 +322,12 @@ form > input {
     }  
     #button > button {
     width: 50%;
+    }
+    #full-footer-image {
+        display: none; 
+    }
+    #short-footer-image {
+        display: inline-block;
     }
 }
 
