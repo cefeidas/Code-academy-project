@@ -27,7 +27,7 @@
                 <a href=uplift-octopus.html><span class="material-symbols-outlined">library_books</span></a>
                 <a href=players-guide.html><span class="material-symbols-outlined">tips_and_updates</span></a>
                 <a href=creative-commons.html><span class="material-symbols-outlined">add_link</span></a>
-                <a href=feedback.html class="active"><span class="material-symbols-outlined">forum</span></a>                
+                <a href=feedback.html class="active" id="feedback-icon"><span class="material-symbols-outlined">forum</span></a>                
             </div>
         </nav>
 <!-- This section is the title. It includes the title itself, a subtitle and an image. Title and subtitles are included in every page. The images change. -->    
@@ -58,13 +58,13 @@
 <!-- Second column: A form asking the users for their details.--> 
             <section class="col-md">
                 <br><br>
-                <p class="title">Your details</p>
+                <h2 class="title">Your details</h2>
                 <form class="content-form" action="url" method="get">
-                    <label for="fname"><p>Full name:</p></label><br>
+                    <label for="fname"><p class="line-p">Full name:</p></label><br>
                     <input type="text" placeholder=" Jhon Smith" id="fname" name="fname" class="content-input-text"><br><br>
-                    <label for="email"><p>Email Address:</p></label><br>
+                    <label for="email"><p class="line-p">Email Address:</p></label><br>
                     <input type="email" placeholder=" jhonsmith@jhon.smith" id="email" name="email" class="content-input-text"><br><br>
-                    <label for="hear-from-us"><p>How did you hear from us?</p></label><br>
+                    <label for="hear-from-us"><p class="line-p">How did you hear from us?</p></label><br>
                     <textarea type="text" placeholder=" A friend..." id="hear-from-us" name="hear-from-us" class="content-input-text"> </textarea><br><br>
                 <p>Did you know what an RPG was before reading this web page?</p>    
                     <input type="radio" id="rpg-yes" name="rpg" value="Yes" class="content-radio-button">
@@ -81,7 +81,7 @@
 <!-- Third column: A form asking the users for their feedback.--> 
             <section class="col-md">
                 <br><br>
-                <p class="title">Rate us!</p>
+                <h2 class="title">Rate us!</h2>
                 <form class="content-form" action="url" method="get">
                     <p>Did you find our site useful?</p>    
                     <input type="radio" id="useful-1" name="useful" value="1" class="content-radio-button">
@@ -116,7 +116,7 @@
                     <label for="play-oct-4"><p>4</p></label>
                     <input type="radio" id="play-oct-5" name="play-oct" value="5" class="content-radio-button">
                     <label for="play-oct-5"><p>5</p></label><br><br>
-                    <label for="advice"><p>What would you suggest us to improve?</p></label><br>
+                    <label for="advice"><p class="line-p">What would you suggest us to improve?</p></label><br>
                     <textarea type="text" placeholder=" You should..." id="advice" name="advice" class="content-input-text"></textarea><br><br>
                 </form>
             </section>
