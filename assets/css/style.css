@@ -70,8 +70,6 @@ p {
     margin-right: 10%;
 }
 
-/* Footer*/
-
 #button {
     text-decoration: none;
     width: 100%;
@@ -102,6 +100,8 @@ p {
     color: rgb(148, 73, 247);
 
 }
+
+/* Footer*/
 
 #full-footer-image {
     width: 100%;
@@ -319,10 +319,10 @@ form > input {
     }
     .full-nav{
         display: none;
-    }  
-    #button > button {
-    width: 50%;
     }
+    #button > button {
+        width: 50%;
+    } 
     #full-footer-image {
         display: none; 
     }
@@ -358,6 +358,7 @@ form > input {
         padding: 8px 16px;
         width: 20%;
     }
+
 }
 
 @media screen and (max-width: 500px) {
